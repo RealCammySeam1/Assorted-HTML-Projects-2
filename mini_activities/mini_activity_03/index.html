@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta data ---------------------------------------------------- -->
+    <meta charset="utf-8">            <!-- Character encoding (UTF‑8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <!-- Makes the page responsive on mobile devices -->
+
+    <!-- Page title --------------------------------------------------- -->
+    <title>Your Title Here</title>
+
+    <!-- External CSS – put your own stylesheet(s) here if needed -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+    <!-- Your content starts here ------------------------------------- -->
+    <h1>Hello, world!</h1>
+
+    <p id="message">Click the button vvvvv</p>
+
+    <button onclick="turnON()">Light</button>
+    <button onclick="turnOff()">Dark</button>
+
+
+    <script>
+        console.log("Javascript is working!")
+        var dark = true;
+        console.log("Hello!");
+
+        function turnOn(){
+            document.getElementById("message").textContent = "You clicked the button!";
+            clickCount++;
+        }
+
+    </script>
+
+    <!-- Optional: External JavaScript – put your own .js file(s) here -->
+    <!-- <script src="app.js"></script> -->
+
+</body>
+</html>
